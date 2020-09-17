@@ -4,3 +4,15 @@ C:\Users\Oanyirah\source\repos\AdventureWorksSales\AdventureWorksSales.Core\obj\
 C:\Users\Oanyirah\source\repos\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.csproj.CoreCompileInputs.cache
 C:\Users\Oanyirah\source\repos\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.dll
 C:\Users\Oanyirah\source\repos\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.pdb
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\AdventureWorksSales.Core.dll.config
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\AdventureWorksSales.Core.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\AdventureWorksSales.Core.pdb
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\EntityFramework.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\EntityFramework.xml
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.csprojAssemblyReference.cache
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.csproj.CoreCompileInputs.cache
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.csproj.CopyComplete
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Core\obj\Debug\AdventureWorksSales.Core.pdb

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AdventureWorksSales.Core.DAC;
+using AdventureWorksSales.Web.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +10,22 @@ namespace AdventureWorksSales.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private SalesOrderDAC _salesOrdersDAC;
+
+        public HomeController()
+        {
+            _salesOrdersDAC = new SalesOrderDAC();
+        }
+
         public ActionResult Index()
         {
-            return View();
+            var model = new DashboardModel();
+
+            model.TotalOrders = _salesOrdersDAC.CountSalesOrders();
+            model.HighestLineTotal = _salesOrdersDAC.GetHighestLineTotal();
+            model.FrontBrakesTotal = _salesOrdersDAC.FrontBrakesSalesTotal();
+
+            return View(model);
         }
 
     }
