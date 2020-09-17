@@ -53,14 +53,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.cs" />
+    <Compile Include="DAC\ProductCategoryDAC.cs" />
+    <Compile Include="DAC\SalesOrderDAC.cs" />
     <Compile Include="Entities\PRODUCT.cs" />
     <Compile Include="Entities\PRODUCTCATEGORY.cs" />
     <Compile Include="Entities\SALESORDER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAC\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

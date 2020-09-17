@@ -1,4 +1,5 @@
-﻿@{
+﻿@model  AdventureWorksSales.Web.Models.DashboardModel
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -17,19 +18,19 @@
     <div class="col-md-4">
         <h2>Total orders</h2>
         <p class="sales">
-            215.634
+            @Html.DisplayFor(modelItem => modelItem.TotalOrders)
         </p>
     </div>
     <div class="col-md-4">
         <h2>Highest line total</h2>
         <p class="sales">
-            21,893
+            @Html.DisplayFor(modelItem => modelItem.HighestLineTotal)
         </p>
     </div>
     <div class="col-md-4">
         <h2>Front Brakes sales total</h2>
         <p class="sales">
-            45,266
+            @Html.DisplayFor(modelItem => modelItem.FrontBrakesTotal)
         </p>
     </div>
 </div>

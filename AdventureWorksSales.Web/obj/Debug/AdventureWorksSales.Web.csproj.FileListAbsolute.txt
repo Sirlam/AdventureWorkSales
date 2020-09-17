@@ -226,3 +226,10 @@ C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT
 C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\obj\Debug\AdventureWorksSales.Web.csproj.CopyComplete
 C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\obj\Debug\AdventureWorksSales.Web.dll
 C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\obj\Debug\AdventureWorksSales.Web.pdb
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\AdventureWorksSales.Core.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\EntityFramework.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\AdventureWorksSales.Core.pdb
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\AdventureWorksSales.Core.dll.config
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\EntityFramework.xml
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\salam\Documents\Visual Studio 2019\Projects\AdventureWorksSales-PROJECT\AdventureWorksSales\AdventureWorksSales.Web\bin\EntityFramework.SqlServer.xml

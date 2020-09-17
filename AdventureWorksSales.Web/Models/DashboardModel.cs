@@ -8,11 +8,11 @@ namespace AdventureWorksSales.Web.Models
 {
     public class DashboardModel
     {
-        [DisplayFormat(DataFormatString = "{0:N}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
         public int TotalOrders { get; set; }
-        [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:N}", ApplyFormatInEditMode = true)]
         public Decimal HighestLineTotal { get; set; }
-        [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:N}", ApplyFormatInEditMode = true)]
         public Decimal FrontBrakesTotal { get; set; }
     }
 }
