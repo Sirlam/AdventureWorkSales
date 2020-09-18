@@ -1,0 +1,21 @@
+﻿@model AdventureWorksSales.Web.Models.ProductCategoryModel
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="content-header clearfix">
+        @Html.HiddenFor(model => model.ProductCategoryID)
+        <h4>
+            Edit Product Category - @Model.Name
+        </h4>
+        <br />
+        <p class="text-success">@ViewBag.Message</p>
+    </div>
+    @Html.Partial("_CreateOrEdit", Model)
+}
+
+

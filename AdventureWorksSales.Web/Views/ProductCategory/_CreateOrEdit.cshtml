@@ -1,0 +1,24 @@
+﻿@model AdventureWorksSales.Web.Models.ProductCategoryModel
+@Html.ValidationSummary(true)
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="input-group">
+                                @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = "Enter product name" })
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">Save</button>
+                                </span>
+                            </div><!-- /input-group -->
+                            @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger"})
+                        </div><!-- /.col-lg-6 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

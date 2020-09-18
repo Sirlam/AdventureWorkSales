@@ -1,0 +1,42 @@
+﻿@model IEnumerable<AdventureWorksSales.Web.Models.ProductCategoryModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="clearfix">
+
+</div>
+<br />
+
+<div class="container">
+    <p class="lead">Product Categories</p>
+    <div class="pull-right">
+        <a href="@Url.Action("Create")" class="btn btn-primary">
+            <i class="glyphicon glyphicon-plus"></i>
+            Add New
+        </a>
+    </div>
+    <br /><br /><br />
+    <div class="table-responsive">
+        <table class="table table-hover table-striped table-cards align-items-center" id="dTable">
+            <thead>
+                <tr>
+                    <th scope="col">@Html.DisplayNameFor(model => model.Name)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.ModifiedDate)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="bg-white">
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ModifiedDate)</td>
+                        <td><a href="@Url.Action("Edit", "ProductCategory", new { id = item.ProductCategoryID})"> Edit </a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
